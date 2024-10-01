@@ -1,0 +1,6 @@
+--2024-06-08 17:17:05--  https://download.9minecraft.net/index.php?act=download
+Resolving download.9minecraft.net (download.9minecraft.net)... 104.26.10.107, 172.67.70.103, 104.26.11.107, ...
+Connecting to download.9minecraft.net (download.9minecraft.net)|104.26.10.107|:443... connected.
+HTTP request sent, awaiting response... 500 Internal Server Error
+2024-06-08 17:17:06 ERROR 500: Internal Server Error.
+

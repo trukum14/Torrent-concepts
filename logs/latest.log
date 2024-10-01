@@ -1,0 +1,229 @@
+[14:34:58] [main/INFO]: Loading Minecraft 1.20.6 with Fabric Loader 0.15.11
+[14:34:59] [main/INFO]: Loading 92 mods:
+	- fabric-api 0.99.4+1.20.6
+	   |-- fabric-api-base 0.4.40+80f8cf51b0
+	   |-- fabric-api-lookup-api-v1 1.6.59+e9d2a72bb0
+	   |-- fabric-biome-api-v1 13.0.25+be5d88beb0
+	   |-- fabric-block-api-v1 1.0.20+6dfe4c9bb0
+	   |-- fabric-block-view-api-v2 1.0.8+80f8cf51b0
+	   |-- fabric-blockrenderlayer-v1 1.1.50+80f8cf51b0
+	   |-- fabric-client-tags-api-v1 1.1.12+7f945d5bb0
+	   |-- fabric-command-api-v1 1.2.45+f71b366fb0
+	   |-- fabric-command-api-v2 2.2.24+80f8cf51b0
+	   |-- fabric-commands-v0 0.2.62+df3654b3b0
+	   |-- fabric-content-registries-v0 8.0.5+b82b2392b0
+	   |-- fabric-convention-tags-v1 2.0.5+7f945d5bb0
+	   |-- fabric-convention-tags-v2 2.1.1+4152abe8b0
+	   |-- fabric-crash-report-info-v1 0.2.27+80f8cf51b0
+	   |-- fabric-data-attachment-api-v1 1.1.16+2a2c66b6b0
+	   |-- fabric-data-generation-api-v1 19.2.1+a5d5299db0
+	   |-- fabric-dimensions-v1 2.1.68+94793913b0
+	   |-- fabric-entity-events-v1 1.6.8+e9d2a72bb0
+	   |-- fabric-events-interaction-v0 0.7.6+c5fc38b3b0
+	   |-- fabric-game-rule-api-v1 1.0.50+80f8cf51b0
+	   |-- fabric-item-api-v1 8.2.3+6e5bbc4ab0
+	   |-- fabric-item-group-api-v1 4.0.39+aae0949ab0
+	   |-- fabric-key-binding-api-v1 1.0.45+80f8cf51b0
+	   |-- fabric-keybindings-v0 0.2.43+df3654b3b0
+	   |-- fabric-lifecycle-events-v1 2.3.4+c5fc38b3b0
+	   |-- fabric-loot-api-v2 3.0.5+97f703dab0
+	   |-- fabric-message-api-v1 6.0.11+a7dc0e41b0
+	   |-- fabric-model-loading-api-v1 1.0.12+80f8cf51b0
+	   |-- fabric-models-v0 0.4.11+9386d8a7b0
+	   |-- fabric-networking-api-v1 4.0.8+0dca0349b0
+	   |-- fabric-object-builder-api-v1 15.1.4+c5fc38b3b0
+	   |-- fabric-particles-v1 4.0.0+c5fc38b3b0
+	   |-- fabric-recipe-api-v1 5.0.3+c5fc38b3b0
+	   |-- fabric-registry-sync-v0 5.0.16+ad474493b0
+	   |-- fabric-renderer-api-v1 3.2.12+97f703dab0
+	   |-- fabric-renderer-indigo 1.5.13+8d125e3bb0
+	   |-- fabric-renderer-registries-v1 3.2.61+df3654b3b0
+	   |-- fabric-rendering-data-attachment-v1 0.3.46+73761d2eb0
+	   |-- fabric-rendering-fluids-v1 3.1.3+2c869dedb0
+	   |-- fabric-rendering-v0 1.1.64+df3654b3b0
+	   |-- fabric-rendering-v1 4.2.4+b21c00cbb0
+	   |-- fabric-resource-conditions-api-v1 4.2.0+a5d5299db0
+	   |-- fabric-resource-loader-v0 1.1.0+c0e5481fb0
+	   |-- fabric-screen-api-v1 2.0.21+7b70ea8ab0
+	   |-- fabric-screen-handler-api-v1 1.3.73+8c7b71c2b0
+	   |-- fabric-sound-api-v1 1.0.21+c5fc38b3b0
+	   |-- fabric-transfer-api-v1 5.1.6+c5fc38b3b0
+	   \-- fabric-transitive-access-wideners-v1 6.0.10+74e2f560b0
+	- fabricloader 0.15.11
+	   \-- mixinextras 0.3.5
+	- floodgate 2.2.3-SNAPSHOT
+	   |-- aopalliance_aopalliance 1.0
+	   |-- cloud 2.0.0-SNAPSHOT
+	   |    |-- fabric-permissions-api-v0 0.3.1
+	   |    |-- io_leangen_geantyref_geantyref 1.3.15
+	   |    |-- org_incendo_cloud-brigadier 2.0.0-SNAPSHOT
+	   |    |-- org_incendo_cloud-core 2.0.0-SNAPSHOT
+	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack_ 2.0.0-SNAPSHOT
+	   |    \-- org_incendo_cloud-services 2.0.0-SNAPSHOT
+	   |-- jakarta_inject_jakarta_inject-api 2.0.1
+	   |-- javax_inject_javax_inject 1
+	   |-- org_geysermc_cumulus_cumulus 1.1.2
+	   |-- org_geysermc_event_events 1.1-SNAPSHOT
+	   |-- org_geysermc_geyser_common 2.2.3-SNAPSHOT
+	   |-- org_java-websocket_java-websocket 1.5.2
+	   \-- org_lanternpowered_lmbda 2.0.0
+	- geyser-fabric 2.3.1-SNAPSHOT
+	   |-- com_fasterxml_jackson_core_jackson-annotations 2.17.0
+	   |-- com_fasterxml_jackson_core_jackson-core 2.17.0
+	   |-- com_fasterxml_jackson_core_jackson-databind 2.17.0
+	   |-- com_fasterxml_jackson_dataformat_jackson-dataformat-yaml 2.17.0
+	   |-- com_nukkitx_natives 1.0.3
+	   |-- io_airlift_aircompressor 0.25
+	   |-- io_netty_netty-codec-dns 4.1.107
+	   |-- io_netty_netty-codec-haproxy 4.1.107
+	   |-- io_netty_netty-resolver-dns-classes-macos 4.1.107
+	   |-- net_bytebuddy_byte-buddy 1.14.9
+	   |-- net_jodah_expiringmap 0.5.10
+	   |-- net_kyori_adventure-api 4.15.0
+	   |-- net_kyori_adventure-key 4.15.0
+	   |-- net_kyori_adventure-nbt 4.15.0
+	   |-- net_kyori_adventure-text-serializer-gson 4.15.0
+	   |-- net_kyori_adventure-text-serializer-json 4.15.0
+	   |-- net_kyori_adventure-text-serializer-json-legacy-impl 4.15.0
+	   |-- net_kyori_adventure-text-serializer-legacy 4.15.0
+	   |-- net_kyori_adventure-text-serializer-plain 4.15.0
+	   |-- net_kyori_examination-api 1.3.0
+	   |-- net_kyori_examination-string 1.3.0
+	   |-- net_kyori_option 1.0.0
+	   |-- org_bitbucket_b_c_jose4j 0.9.3
+	   |-- org_cloudburstmc_block-state-updater 1.20.80-20240411.142413-1
+	   |-- org_cloudburstmc_math_api 2.0
+	   |-- org_cloudburstmc_math_immutable 2.0
+	   |-- org_cloudburstmc_nbt 3.0.3
+	   |-- org_geysermc_api_base-api 1.0.0-SNAPSHOT
+	   |-- org_geysermc_cumulus_cumulus 1.1.2
+	   |-- org_geysermc_event_events 1.1-SNAPSHOT
+	   |-- org_lanternpowered_lmbda 2.0.0
+	   \-- org_yaml_snakeyaml 2.2
+	- java 21
+	- luckperms 5.4.125
+	   \-- fabric-permissions-api-v0 0.3.1
+	- minecraft 1.20.6
+	- viafabric 0.4.14+68-main
+	   |-- cotton-client-commands 1.1.0+1.15.2
+	   |-- org_yaml_snakeyaml 2.2
+	   \-- viafabric-mc1206 0.4.14+68-main
+	- viaversion 4.10.2
+	- voicechat 1.20.6-2.5.15
+	   \-- fabric-key-binding-api-v1 1.0.45+80f8cf51ff
+	- worldedit 7.3.3+6788-6359df8
+[14:34:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/ronan/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[14:35:00] [main/INFO]: Compatibility level set to JAVA_17
+[14:35:02] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[14:35:19] [main/INFO]: Loading extensions...
+[14:35:19] [main/INFO]: Loaded 0 extension(s)
+[14:35:20] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[14:35:21] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[14:35:21] [main/INFO]: ViaVersion detected server version: 1.20.5-1.20.6 (766)
+[14:35:21] [main/WARN]: ViaVersion does not have any compatible versions for this server version!
+[14:35:21] [main/WARN]: Please remember that ViaVersion only adds support for versions newer than the server version.
+[14:35:21] [main/WARN]: If you need support for older versions you may need to use one or more ViaVersion addons too.
+[14:35:21] [main/WARN]: In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
+[14:35:21] [main/WARN]: and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[14:35:21] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor!
+[14:35:21] [main/INFO]: [voicechat] Compatibility version 18
+[14:35:21] [main/INFO]: [voicechat] Loading plugins
+[14:35:21] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[14:35:21] [main/INFO]: [voicechat] Initializing plugins
+[14:35:21] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[14:35:21] [main/INFO]: [voicechat] Successfully registered ViaVersion mappings
+[14:35:22] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1c625aaf]
+[14:35:22] [main/INFO]: WorldEdit for Fabric (version 7.3.3+6788-6359df8) is loaded
+[14:35:23] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:35:27] [Worker-Main-3/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[14:35:27] [main/INFO]: Loaded 1175 recipes
+[14:35:28] [main/INFO]: Loaded 1276 advancements
+[14:35:29] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.145 ms
+[14:35:29] [Server thread/INFO]:         __    
+[14:35:29] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.125
+[14:35:29] [Server thread/INFO]:   |___ |      Running on Fabric - fabric@0.99.4+1.20.6
+[14:35:29] [Server thread/INFO]: 
+[14:35:29] [Server thread/INFO]: Loading configuration...
+[14:35:29] [Server thread/INFO]: Loading storage provider... [H2]
+[14:35:30] [Server thread/INFO]: Loading internal permission managers...
+[14:35:30] [Server thread/INFO]: Performing initial data load...
+[14:35:30] [Server thread/INFO]: Successfully enabled. (took 1575ms)
+[14:35:30] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[14:35:30] [Server thread/INFO]: Loading properties
+[14:35:30] [Server thread/INFO]: Default game type: CREATIVE
+[14:35:30] [Server thread/INFO]: Generating keypair
+[14:35:30] [Server thread/INFO]: Starting Minecraft server on 192.168.1.91:25565
+[14:35:30] [Server thread/INFO]: Using epoll channel type
+[14:35:31] [Server thread/INFO]: Preparing level "world"
+[14:35:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:35:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:35:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:35:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:35:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:35:40] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:35:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:35:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:35:42] [Worker-Main-3/INFO]: Preparing spawn area: 38%
+[14:35:42] [Server thread/INFO]: Time elapsed: 3679 ms
+[14:35:42] [Server thread/INFO]: Done (11.285s)! For help, type "help"
+[14:35:42] [Server thread/INFO]: Took 121ms to boot Floodgate
+[14:35:42] [Server thread/INFO]: ******************************************
+[14:35:42] [Server thread/INFO]: 
+[14:35:42] [Server thread/INFO]: Loading Geyser version 2.3.1-SNAPSHOT (git-master-688b642)
+[14:35:42] [Server thread/INFO]: 
+[14:35:42] [Server thread/INFO]: ******************************************
+[14:35:50] [Server thread/INFO]: Started Geyser on 0.0.0.0:19132
+[14:35:50] [Server thread/INFO]: Done (7.648s)! Run /geyser help for help!
+[14:35:50] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.1.91
+[14:35:50] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.1.91:24454
+[14:37:48] [User Authenticator #1/INFO]: Disconnecting TUPlaysYT (/192.168.1.89:51029): Failed to verify username!
+[14:37:48] [User Authenticator #1/ERROR]: Username 'TUPlaysYT' tried to join with an invalid session
+[14:37:48] [Server thread/INFO]: TUPlaysYT (/192.168.1.89:51029) lost connection: Failed to verify username!
+[14:38:02] [User Authenticator #2/INFO]: UUID of player TUPlaysYT is a5eac09e-38bf-4593-a511-10158b1e9f25
+[14:38:05] [Server thread/INFO]: TUPlaysYT[/192.168.1.89:51033] logged in with entity id 83 at (202.10675239738785, 70.0, -216.71861087887783)
+[14:38:05] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[14:38:05] [Server thread/INFO]: TUPlaysYT joined the game
+[14:40:49] [Server thread/WARN]: TUPlaysYT moved too quickly! -0.11746801940972773,-11.599479277892712,0.3019060487708387
+[14:46:59] [Server thread/INFO]: TUPlaysYT has made the advancement [Monster Hunter]
+[15:10:47] [Server thread/INFO]: [TUPlaysYT: Successfully filled 1 block(s)]
+[15:19:05] [Server thread/INFO]: TUPlaysYT has made the advancement [Stone Age]
+[15:19:32] [Server thread/INFO]: [TUPlaysYT: Removed 46 item(s) from player TUPlaysYT]
+[15:20:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[15:25:56] [Server thread/WARN]: TUPlaysYT moved too quickly! -0.31254484449198117,0.0,10.49405062207876
+[15:27:26] [Server thread/INFO]: TUPlaysYT lost connection: Disconnected
+[15:27:26] [Server thread/INFO]: TUPlaysYT left the game
+[15:27:26] [Server thread/INFO]: [voicechat] Disconnecting client TUPlaysYT
+[16:03:38] [User Authenticator #3/INFO]: UUID of player TUPlaysYT is a5eac09e-38bf-4593-a511-10158b1e9f25
+[16:03:40] [Server thread/INFO]: TUPlaysYT[/192.168.1.89:51690] logged in with entity id 17894 at (244.32188176307284, 93.48798525089921, -362.7974632959999)
+[16:03:40] [Server thread/INFO]: TUPlaysYT joined the game
+[16:06:32] [Server thread/INFO]: [TUPlaysYT: Removed 8 item(s) from player TUPlaysYT]
+[16:14:07] [Server thread/INFO]: [TUPlaysYT: Gave 1 [Eye of Ender] to TUPlaysYT]
+[16:17:10] [Server thread/INFO]: TUPlaysYT has made the advancement [The End?]
+[16:17:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2289ms or 45 ticks behind
+[16:17:13] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[16:17:13] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[16:17:21] [Server thread/INFO]: TUPlaysYT was killed
+[16:17:21] [Server thread/INFO]: [TUPlaysYT: Killed 83 entities]
+[16:26:54] [Server thread/INFO]: [TUPlaysYT: Set the world spawn point to 193, 72, -220 [0.0]]
+[16:34:36] [Server thread/INFO]: TUPlaysYT has made the advancement [Glow and Behold!]
+[16:37:45] [Server thread/INFO]: [TUPlaysYT: Set the world spawn point to 193, 72, -220 [0.0]]
+[18:42:41] [Server thread/INFO]: TUPlaysYT lost connection: Disconnected
+[18:42:41] [Server thread/INFO]: TUPlaysYT left the game
+[18:42:41] [Server thread/INFO]: [voicechat] Disconnecting client TUPlaysYT
+[20:54:25] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecraft.class_3176$1.run(class_3176.java:98) [server-intermediary.jar:?]

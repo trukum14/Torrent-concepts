@@ -1,0 +1,148 @@
+---- Minecraft Crash Report ----
+// I'm sorry, Dave.
+
+Time: 2024-06-09 09:37:07
+Description: Exception in server tick loop
+
+java.lang.NoSuchFieldError: Class net.minecraft.class_2378 does not have member field 'net.minecraft.class_2348 field_11145'
+	at bssentials.fabric.BssentialsMod.lambda$onInitialize$1(BssentialsMod.java:134)
+	at net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.lambda$static$2(ServerLifecycleEvents.java:49)
+	at net.minecraft.server.MinecraftServer.handler$zec000$fabric-lifecycle-events-v1$afterSetupServer(MinecraftServer.java:3078)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:662)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:275)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.6
+	Minecraft Version ID: 1.20.6
+	Operating System: Linux (amd64) version 6.8.0-35-generic
+	Java Version: 21.0.2, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 200802304 bytes (191 MiB) / 631242752 bytes (602 MiB) up to 2147483648 bytes (2048 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-2435M CPU @ 2.40GHz
+	Identifier: Intel64 Family 6 Model 42 Stepping 7
+	Microarchitecture: Sandy Bridge (Client)
+	Frequency (GHz): 2.40
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: 2nd Generation Core Processor Family Integrated Graphics Controller
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 256.00
+	Graphics card #0 deviceId: 0x0126
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 5742.20
+	Virtual memory used (MB): 1746.06
+	Swap memory total (MB): 3828.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 1 total; -Xmx2G
+	Fabric Mods: 
+		bssentials: Bssentials Fabric
+		cyber-permissions: CyberPermissions 1.5
+		fabric-api: Fabric API 0.99.4+1.20.6
+			fabric-api-base: Fabric API Base 0.4.40+80f8cf51b0
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.59+e9d2a72bb0
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.25+be5d88beb0
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.20+6dfe4c9bb0
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.8+80f8cf51b0
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.45+f71b366fb0
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.24+80f8cf51b0
+			fabric-commands-v0: Fabric Commands (v0) 0.2.62+df3654b3b0
+			fabric-content-registries-v0: Fabric Content Registries (v0) 8.0.5+b82b2392b0
+			fabric-convention-tags-v1: Fabric Convention Tags 2.0.5+7f945d5bb0
+			fabric-convention-tags-v2: Fabric Convention Tags (v2) 2.1.1+4152abe8b0
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.27+80f8cf51b0
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.1.16+2a2c66b6b0
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 19.2.1+a5d5299db0
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.68+94793913b0
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.6.8+e9d2a72bb0
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.7.6+c5fc38b3b0
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.50+80f8cf51b0
+			fabric-item-api-v1: Fabric Item API (v1) 8.2.3+6e5bbc4ab0
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.0.39+aae0949ab0
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.3.4+c5fc38b3b0
+			fabric-loot-api-v2: Fabric Loot API (v2) 3.0.5+97f703dab0
+			fabric-message-api-v1: Fabric Message API (v1) 6.0.11+a7dc0e41b0
+			fabric-networking-api-v1: Fabric Networking API (v1) 4.0.8+0dca0349b0
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 15.1.4+c5fc38b3b0
+			fabric-particles-v1: Fabric Particles (v1) 4.0.0+c5fc38b3b0
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 5.0.3+c5fc38b3b0
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 5.0.16+ad474493b0
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.46+73761d2eb0
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.1.3+2c869dedb0
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 4.2.0+a5d5299db0
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 1.1.0+c0e5481fb0
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.73+8c7b71c2b0
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 5.1.6+c5fc38b3b0
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 6.0.10+74e2f560b0
+		fabricloader: Fabric Loader 0.15.11
+			mixinextras: MixinExtras 0.3.5
+		floodgate: Floodgate-Fabric 2.2.3-SNAPSHOT
+			aopalliance_aopalliance: aopalliance 1.0
+			cloud: Cloud 2.0.0-SNAPSHOT
+				fabric-permissions-api-v0: fabric-permissions-api 0.3.1
+				io_leangen_geantyref_geantyref: geantyref 1.3.15
+				org_incendo_cloud-brigadier: cloud-brigadier 2.0.0-SNAPSHOT
+				org_incendo_cloud-core: cloud-core 2.0.0-SNAPSHOT
+				org_incendo_cloud-minecraft-modded-common-fabric-repack_: cloud-minecraft-modded-common-fabric-repack 2.0.0-SNAPSHOT
+				org_incendo_cloud-services: cloud-services 2.0.0-SNAPSHOT
+			jakarta_inject_jakarta_inject-api: jakarta.inject-api 2.0.1
+			javax_inject_javax_inject: javax.inject 1
+			org_geysermc_cumulus_cumulus: cumulus 1.1.2
+			org_geysermc_event_events: events 1.1-SNAPSHOT
+			org_geysermc_geyser_common: common 2.2.3-SNAPSHOT
+			org_java-websocket_java-websocket: Java-WebSocket 1.5.2
+			org_lanternpowered_lmbda: lmbda 2.0.0
+		geyser-fabric: Geyser-Fabric 2.3.1-SNAPSHOT
+			com_fasterxml_jackson_core_jackson-annotations: jackson-annotations 2.17.0
+			com_fasterxml_jackson_core_jackson-core: jackson-core 2.17.0
+			com_fasterxml_jackson_core_jackson-databind: jackson-databind 2.17.0
+			com_fasterxml_jackson_dataformat_jackson-dataformat-yaml: jackson-dataformat-yaml 2.17.0
+			com_nukkitx_natives: natives 1.0.3
+			io_airlift_aircompressor: aircompressor 0.25
+			io_netty_netty-codec-dns: netty-codec-dns 4.1.107
+			io_netty_netty-codec-haproxy: netty-codec-haproxy 4.1.107
+			io_netty_netty-resolver-dns-classes-macos: netty-resolver-dns-classes-macos 4.1.107
+			net_bytebuddy_byte-buddy: byte-buddy 1.14.9
+			net_jodah_expiringmap: expiringmap 0.5.10
+			net_kyori_adventure-api: adventure-api 4.15.0
+			net_kyori_adventure-key: adventure-key 4.15.0
+			net_kyori_adventure-nbt: adventure-nbt 4.15.0
+			net_kyori_adventure-text-serializer-gson: adventure-text-serializer-gson 4.15.0
+			net_kyori_adventure-text-serializer-json: adventure-text-serializer-json 4.15.0
+			net_kyori_adventure-text-serializer-json-legacy-impl: adventure-text-serializer-json-legacy-impl 4.15.0
+			net_kyori_adventure-text-serializer-legacy: adventure-text-serializer-legacy 4.15.0
+			net_kyori_adventure-text-serializer-plain: adventure-text-serializer-plain 4.15.0
+			net_kyori_examination-api: examination-api 1.3.0
+			net_kyori_examination-string: examination-string 1.3.0
+			net_kyori_option: option 1.0.0
+			org_bitbucket_b_c_jose4j: jose4j 0.9.3
+			org_cloudburstmc_block-state-updater: block-state-updater 1.20.80-20240411.142413-1
+			org_cloudburstmc_math_api: api 2.0
+			org_cloudburstmc_math_immutable: immutable 2.0
+			org_cloudburstmc_nbt: nbt 3.0.3
+			org_geysermc_api_base-api: base-api 1.0.0-SNAPSHOT
+		java: Java HotSpot(TM) 64-Bit Server VM 21
+		minecraft: Minecraft 1.20.6
+		viafabric: ViaFabric 0.4.14+68-main
+			org_yaml_snakeyaml: snakeyaml 2.2
+			viafabric-mc1206: ViaFabric for 1.20.5/6 0.4.14+68-main
+		viaversion: ViaVersion 4.10.2
+		voicechat: Simple Voice Chat 1.20.6-2.5.15
+		worldedit: WorldEdit 7.3.3+6788-6359df8
+	Server Running: true
+	Player Count: 0 / 20; []
+	Active Data Packs: vanilla, fabric, fabric-convention-tags-v2
+	Available Data Packs: bundle, fabric, fabric-convention-tags-v2, trade_rebalance, update_1_21, vanilla
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: -952768806495584017
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server (map_server.txt)
